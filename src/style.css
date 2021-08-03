@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #322970;
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.main_div > h1 {
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.my_list {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  height: 100ch;
+  width: 60%;
+
+  margin-left: 20%;
+}
+.list_img {
+  height: 150px;
+  width: auto;
+
+  justify-content: center;
+}
+.my_list > p {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.list_input {
+  margin-top: 50px;
+}
+.list_input > input {
+  outline: none;
+  border: none;
+  background-color: brown;
+  height: 50px;
+  width: 300px;
+  justify-content: center;
+  text-align: center;
+}
+.input_item > p {
+  margin-top: 50px;
+  height: 50px;
+  width: auto;
+  background-color: darkgrey;
+  justify-content: center;
+  line-height: 50px;
+}
+.my_button {
+  margin-top: 20px;
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  background-color: darkslateblue;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+.my_button:hover {
+  background-color: darkslategray;
+}
+
+.plus {
+  display: flex;
+  margin-left: -30px;
+  margin-bottom: -5px;
+  z-index: 1;
+  cursor: pointer;
+  background-color: brown;
+}
+.edit {
+  background: darkgray;
+  margin-left: 400px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.delet {
+  background: darkgray;
+  margin-left: 30px;
+  margin-top: 5px;
+  cursor: pointer;
+}
